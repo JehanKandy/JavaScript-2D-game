@@ -1,0 +1,143 @@
+.login-background {
+    background-image: url("../images/login_background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.game-form {
+    background-color: white;
+    margin: 400px 100px 160px 300px;
+    padding: 100px;
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    border: 2px solid white;
+}
+
+.game-form .text {
+    font-size: 20px;
+}
+
+.game-form .start-game {
+    width: 100%;
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.game-form .start-game:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.game-body {
+    margin: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.boy {
+    height: 150px;
+    margin-top: 580px;
+    position: absolute;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: 580px;
+    background-image: url(../images/Barrier2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.score {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0 0 20px;
+    position: absolute;
+    color: white;
+}
+
+.over {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    background-image: url(../images/game_over.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+
+.game-over {
+    margin-top: -100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.game-over .p1 {
+    margin-top: -50px;
+    color: red;
+}
+
+.game-over .p2 {
+    margin-top: -50px;
+    color: rgb(245, 109, 109);
+}
+
+.game-over .p4 {
+    margin-top: -50px;
+    color: rgb(245, 109, 109);
+}
+
+.try-again-btn {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 3px solid red;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.try-again-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.level {
+    margin-left: 1450px;
+    margin-top: 20px;
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="game-body" onload="IdelLevelStart(); createBoxes();" onkeypress="key(event);">
+    <div class="background" id="background">
+        <img src="images/Idle (1).png" alt="" id="boy" class="boy">
+
+        <div class="score" id="score">0</div>
+
+        <div class="level" id="level">Level 00</div>
+
+
+    </div>
+
+    <div class="over" id="over">
+        <div class="game-over">
+            <p class="p1">Game Over</p>
+            <p class="p2">Your Score is</p>
+            <p class="p3" id="scoreEnd">0</p>
+
+            <button class="try-again-btn" onclick="play_again();">Try Again</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
